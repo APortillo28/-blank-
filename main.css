@@ -171,3 +171,44 @@ p {
     min-width: 800px;
     min-height: 550px;
 }
+
+/* contact form styling begin */
+.contact-form {
+    background-color: #f9faff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #adbbff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.contact-form input[type="submit"] {
+    background-color: #72747D;
+    color: #f9faff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #575380;
+}
+
+/* contact form styling end */
