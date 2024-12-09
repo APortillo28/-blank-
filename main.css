@@ -165,6 +165,7 @@ p {
   .videoContainer {
      min-width: 800px;
      min-height: 550px;
+     margin-top: 0.5rem;
   }
 
   iframe {
